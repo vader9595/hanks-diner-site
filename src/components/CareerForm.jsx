@@ -95,7 +95,7 @@ const handleChange = (e) => {
         method="POST" 
         data-netlify="true" 
         data-netlify-honeypot="bot-field"
-        enctype="multipart/form-data"
+        eencType="multipart/form-data"
         
     >
         
