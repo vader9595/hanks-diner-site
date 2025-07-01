@@ -1,0 +1,93 @@
+.navs {
+  color: black;
+  font-weight: bold;
+  text-decoration: none;
+  margin-left: 50em;
+}
+
+
+
+
+.headerArea {
+  display: flex;
+  align-items: center; /* aligns image and text vertically */
+  gap: 10rem; /* space between logo and name */
+}
+
+.headerArea img {
+  width: 250px; /* adjust as needed */
+  height: auto;
+}
+
+.dinerName {
+  
+  margin: 0;
+  font-weight: bold;
+  font-family: 'Pacifico', cursive;
+  font-size: 5rem;
+  color: black;
+  text-shadow: 2px 2px #ffb703;
+  padding: 2rem;
+  
+  
+}
+
+
+
+
+
+
+
+
+
+/* Dark mode support */
+.app.dark .header-center {
+  color: #FFFFFF;
+}
+
+.app.dark nav a {
+  color: #FFFFFF;
+}
+
+
+
+
+
+
+
+
+/* 📱 Responsive Styling */
+
+@media (max-width: 768px) {
+  .headerArea {
+    flex-direction: column;
+    align-items: center;
+    
+  }
+
+  .headerArea img {
+    margin-right: 0;
+    margin-bottom: 0.5rem;
+  }
+
+  .dinerName {
+    font-size: 3rem;
+    margin: 0.5rem 0;
+    text-align: center;
+  }
+
+  .navs {
+    margin-top: 0.5rem;
+  }
+
+  .navs {
+    display: block;
+    margin: 0.5rem 0;
+  }
+}
+
+
+
+
+
+

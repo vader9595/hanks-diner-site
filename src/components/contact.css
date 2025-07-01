@@ -1,0 +1,69 @@
+.ownerArea {
+  position: relative;
+  text-align: center;
+  padding: 2rem;
+}
+
+h1 {
+    flex: 1;
+    margin-bottom: 2em;
+    margin-left: 8em;
+}
+
+
+h2 {
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
+
+.nick-img {
+  position: absolute;
+  left: 16rem;
+  top: 40%;
+  transform: translateY(-50%);
+  width: 200px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+  gap: 2rem;
+  
+}
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+
+.ownerArea {
+  flex-direction: column;
+  
+  padding: 2rem;
+}
+
+h1 {
+     margin: 0 auto 2em auto; /* top, right, bottom, left */
+     text-align: center;
+    
+}
+
+
+h2 {
+    margin-top: 4em;
+    margin-bottom: 5em;
+}
+
+
+.nick-img {
+  position: static;
+  left: 16rem;
+  top: 45%;
+  transform: none;
+  width: 90%;
+  gap: 2rem;
+  
+}
+}

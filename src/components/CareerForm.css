@@ -1,0 +1,144 @@
+.super-big-text {
+  font-size: 4rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+
+
+
+
+
+.career-form-container {
+  max-width: 400px;
+  margin: 20px auto;
+  padding: 44px;
+  background-color: #ffffff;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.careerPic-pic {
+  position: absolute;
+  left: 4rem;
+  top: 95%;
+  transform: translateY(-50%);
+  width: 350px;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.2);
+}
+
+.career-heading {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 16px;
+  text-align: center;
+}
+
+.career-form {
+  display: flex; /* this spreads the fields out*/
+  flex-direction: column; /* this stacks the fields on one another*/
+  gap: 16px;
+}
+
+.career-form input[type="text"],
+.career-form input[type="email"],
+.career-form input[type="file"]    {
+
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 6px;
+}
+
+.career-form button {
+  background-color: #0070f3;
+  color: white;
+  padding: 12px;
+  border: none;
+  border-radius: 6px;
+  font-size: 16px;
+  cursor: pointer;
+  transition: background-color 0.1s;
+}
+
+.career-form button:hover {
+  background-color: #005ac2;
+}
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+.super-big-text {
+  
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin: 1rem 0;
+  text-align: center;
+}
+
+
+.career-form-container {
+    padding: 2rem;
+    margin: 1rem auto;
+    width: 90%;
+    max-width: 100%;
+}
+
+
+
+.careerPic-pic {
+  position: static;
+  transform: none;
+  display: block;
+  margin: 1rem auto;
+  width: 90%;
+  max-width: 300px;
+}
+
+.career-heading {
+  font-size: 20px;
+}
+
+.career-form {
+  gap: 1rem;
+}
+
+}
+
+
+
+
+
+
+
+.app.dark .career-form-container {
+  max-width: 400px;
+  margin: 90px auto;
+  padding: 44px;
+  background-color: black;
+  border-radius: 10px;
+  box-shadow: 0 6px 18px rgba(0, 0, 0, 0.1);
+}
+
+
+
+.app.dark .career-heading {
+  color: #FFFFFF;
+}
+
+
+
+.app.dark .resume-note {
+  color: white;
+}
