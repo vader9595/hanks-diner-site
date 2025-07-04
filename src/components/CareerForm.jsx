@@ -52,7 +52,7 @@ const handleChange = (e) => {
 
   const handleSubmit = (e) => {
   
-    e.preventDefault(); /* this prevents the page from reloading */
+    
   
     // For now, just log it. Replace with real backend API later.
     console.log('Submitted:', formData);
@@ -89,16 +89,19 @@ const handleChange = (e) => {
   
     <h2 className="career-heading">   Join Our Team   </h2>
   
-    <form onSubmit= { handleSubmit } 
+
+
+
+    <form
         className= "career-form"
         name="job-application" 
         method="POST" 
         data-netlify="true" 
-        data-netlify-honeypot="bot-field"
-        eencType="multipart/form-data"
         
-    >
+        encType="multipart/form-data">
         
+<input type="hidden" name="form-name" value="job-application" />
+
       <input
         type="text"
         name="name"
@@ -142,7 +145,12 @@ const handleChange = (e) => {
     </form>
   </div>
 </div>
+
+
+
 </>
+
+
 );
 }
 
