@@ -100,7 +100,7 @@ const handleChange = (e) => {
         
         encType="multipart/form-data">
         
-<input type="hidden" name="form-name" value="job-application" />
+<input type="hidden" name="job-application" value="job-application" />
 
       <input
         type="text"
