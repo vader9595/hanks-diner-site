@@ -43,11 +43,13 @@
       To create a production bundle, use `npm run build` or `yarn build`.
     -->
 
-    <form name="job-application" netlify hidden>
+   <form name="job-application" method="POST" data-netlify="true" hidden>
   <input type="text" name="name" />
+  <input type="text" name="lastName" />
   <input type="email" name="email" />
-  <textarea name="message"></textarea>
+  <input type="file" name="resume" />
 </form>
+
 
   </body>
 </html>
