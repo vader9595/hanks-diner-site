@@ -50,18 +50,19 @@ const handleChange = (e) => {
   };
 
 
-  const handleSubmit = (e) => {
+  // const handleSubmit = (e) => {
   
     
   
-    // For now, just log it. Replace with real backend API later.
-    console.log('Submitted:', formData);
+  //   // For now, just log it. Replace with real backend API later.
+  //   console.log('Submitted:', formData);
 
-    alert('Resume submitted!');
+  //   alert('Resume submitted!');
   
-    /* to see this, right-click, inspect page, AND THEN hit submit and 
-    you'll see it under Messages, User Messages or Info */
-  };
+  //   /* to see this, right-click, inspect page, AND THEN hit submit and 
+  //   you'll see it under Messages, User Messages or Info */
+  // };  
+  
 
 
 
