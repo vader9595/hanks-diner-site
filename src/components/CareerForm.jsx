@@ -91,14 +91,28 @@ const handleChange = (e) => {
     <h2 className="career-heading">   Join Our Team   </h2>
   
 
+<form
+  name="job-application"
+  method="POST"
+  data-netlify="true"
+  encType="multipart/form-data"
+>
+  <input type="hidden" name="form-name" value="job-application" />
+
+  <input type="text" name="name" placeholder="First Name" required />
+  <input type="text" name="lastName" placeholder="Last Name" required />
+  <input type="email" name="email" placeholder="Email" required />
+  <input type="file" name="resume" required />
+  
+  <button type="submit">Submit</button>
+</form>
 
 
-    <form
+    {/* <form
         className= "career-form"
         name="job-application" 
         method="POST" 
         data-netlify="true" 
-        
         encType="multipart/form-data">
         
 <input type="hidden" name="form-name" value="job-application" />
@@ -144,7 +158,7 @@ const handleChange = (e) => {
   
       <button type="submit"> Submit </button>
   
-    </form>
+    </form> */}
   </div>
 </div>
 
