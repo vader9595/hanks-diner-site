@@ -11,15 +11,15 @@ import './CareerForm.css';
 function CareerForm() { 
   
 
-  /* this is basically an array to hold the stuff in */
-  const [formData, setFormData] = useState({
+  // /* this is basically an array to hold the stuff in */
+  // const [formData, setFormData] = useState({
 
-    name: '',
-    lastName:'',
-    email: '',
-    resume: null
+  //   name: '',
+  //   lastName:'',
+  //   email: '',
+  //   resume: null
   
-  });
+  // });
 
 
   /* This updates your formData state object.
@@ -35,19 +35,19 @@ If it's not a file input, use the text value the user typed., basically,
 e.target will detect if it has a "files array and if it does then it's
 a file bc regular text stuff doesn't have one" */
 
-const handleChange = (e) => {
+// const handleChange = (e) => {
   
-  /* vvvvv e.target is the form element (like <input>) that 
-           triggered the event. */
-    const { name, value, files } = e.target; 
+//   /* vvvvv e.target is the form element (like <input>) that 
+//            triggered the event. */
+//     const { name, value, files } = e.target; 
   
-    setFormData((prev) => ({
-      ...prev,
+//     setFormData((prev) => ({
+//       ...prev,
 
-      [name]: files ?    files[0] : value
+//       [name]: files ?    files[0] : value
   
-    }));
-  };
+//     }));
+//   };
 
 
   // const handleSubmit = (e) => {
