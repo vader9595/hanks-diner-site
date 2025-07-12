@@ -11,6 +11,8 @@ import Home from "./components/Home";
 import CartArea from "./components/CartArea";
 import CareerForm from "./components/CareerForm";
 
+import ThankYou from "./components/ThankYou";
+
 // test
 
 
@@ -42,6 +44,7 @@ function App() {
         <Route path="/" element={<Home />} />
         <Route path="/cart" element={<CartArea />} />
         <Route path="/career" element={<CareerForm />} />
+        <Route path="/thank-you" element={<ThankYou />} />
 
       </Routes>
 
