@@ -176,7 +176,18 @@
 import React from "react";
 import "./CareerForm.css";
 
+
+
+
+
+
 function CareerForm() {
+
+
+
+
+
+
   return (
     <>
       <div className="super-big-text">Careers</div>
@@ -196,6 +207,7 @@ function CareerForm() {
             method="POST"
             data-netlify="true"
             encType="multipart/form-data"
+            action="/thank-you"
           >
             {/* Netlify form name hidden input is REQUIRED */}
             <input type="hidden" name="form-name" value="job-application" />
